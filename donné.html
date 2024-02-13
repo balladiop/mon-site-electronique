@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>donné</title>
+<script type="text/javascript">
+  var a = "les administrateurs recevrons les informations  fournie par l utilisateur lorsque vous clické sur envoyer  maintenant apuié sur  "OK" pour acceder a la formulaire d' inscription " ;
+	alert(a);
+
+
+</script>
+
+</head>
+<body>
+  <div class="box">
+
+  	<fieldset>
+  		<legend><h1>Inscription</h1> </legend>
+    <form action="donne.php" method="post">
+
+			<table>
+			 
+		   <tr>	
+			
+			   <td><label for="name">Nom :	</label> </td>
+			   <td> <input type="text" name="name" placeholder="Prenom et Nom"required ></td>
+            </tr>
+			
+			<tr>
+			    <td><label for="tel">Tél  :	</label> </td>
+			    <td> <input type="tel" name="tel" placeholder="numéro télèphone" required></td>
+			</tr>
+			<tr>
+			
+			    <td><label for="mail">Email :</label></td>
+			    <td> <input type="email" name="mail" placeholder="Adress E-mail" required></td>
+		    </tr><br><br>
+		   
+		    
+		</table>
+		 <button  type="submit">Envoyer </button>  
+
+
+    </form>
+  
+    </fieldset>
+     <a href="indexe.html"><button class="re">Retour</button> </a>
+      <div class="img"><img src="pop.png"width="300px" height="250px">  </div>
+  </div>  
+<style >
+	input{
+		width: 200px;
+		height: 30px;
+		border-bottom: none;
+		border-top: none;
+		border-radius: 20px;
+		background-color: pink;
+
+
+	}
+	button{
+		width: 150px;
+		height: 30px;
+		border-radius: 25px;
+		border: none;
+		margin-inline: 90px;
+		background-color: green;
+		cursor: pointer;
+		
+	}
+	button:hover{
+		background: transparent;
+	}
+	body{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		min-height: 90vh;
+		background-color: lightpink;
+	}
+	fieldset{
+		height: 300px;
+		border-radius: 20px;
+		border-left: none;
+		border-right: none;
+		border-top: 2px solid;
+		background-image: url(po.png);
+		box-shadow: 0 10px 25px rgba(0, 0, 0, 0.9);
+	}
+	legend{
+		color: orange;
+	}
+	.img{
+		padding: 0px 55px;
+	}
+	.re{
+     background-color: red;
+	}
+	
+
+
+
+
+
+
+</style>
+
+
+</body>
+</html>
